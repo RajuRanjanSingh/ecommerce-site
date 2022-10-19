@@ -2,29 +2,29 @@ import React from 'react'
 import styles from './main.module.css'
 const main = () => {
   return (
-    <div className={styles.container}>
-            <div className={styles.left}>
-                <div className={styles.img_1}></div>
-                <div className={styles.flexImgcontainer} >
-                    <div className={styles.img_2} >
+    <div className={styles.maincontainer}>
+            <div className={styles.mainleft}>
+                <div className={styles.mainimg_1}></div>
+                <div className={styles.mainflexImgcontainer} >
+                    <div className={styles.mainimg_2} >
                         <img src='./Pic_1.png' />                   
                     </div>
-                    <div className={styles.img_2} >
+                    <div className={styles.mainimg_2} >
 
                     </div>
-                    <div className={styles.img_2} >
+                    <div className={styles.mainimg_2} >
 
                     </div>
-                    <div className={styles.img_2} >
+                    <div className={styles.mainimg_2} >
 
                     </div>
-                    <div className={styles.img_2} >
+                    <div className={styles.mainimg_2} >
 
                     </div>
                 </div>
             </div>
-            <div className={styles.right}>
-                <p className={styles.text_1}>Clothing</p>
+            <div className={styles.mainright}>
+                <p className={styles.maintext_1}>Clothing</p>
                 <style jsx>{
                     `
                     p{
@@ -32,14 +32,14 @@ const main = () => {
                     }
                     `
                 }</style>
-                <div className={styles.text_4}>
+                <div className={styles.maintext_4}>
                     Leather boots with tall leg
                 </div>
-                <div className={styles.right_container_1}>
-                    <div className={styles.stars}>
+                <div className={styles.mainright_container_1}>
+                    <div className={styles.mainstars}>
                        
                     </div>
-                    <div className={styles.text_2}/>
+                    <div className={styles.maintext_2}/>
                         (1.234 reviews)
                     </div><style jsx>
                         {`
@@ -60,7 +60,7 @@ const main = () => {
                         `}
                     </style>
                     
-                    <div className={styles.text_2}>
+                    <div className={styles.maintext_2}>
                         In Stock
                     </div>
                     <style jsx>
@@ -71,9 +71,9 @@ const main = () => {
                         `}
                     </style>
                 </div>
-                <div className={styles.right_container_2}>
-                    <div className={styles.text_5}>$68.00</div>
-                    <div className={styles.text_4}>
+                <div className={styles.mainright_container_2}>
+                    <div className={styles.maintext_5}>$68.00</div>
+                    <div className={styles.maintext_4}>
                         $98.00
                     </div>
                     <p className="text_0">
@@ -81,8 +81,8 @@ const main = () => {
                         sustainable fibres or processes, reducing their environmental impact.
                     </p>
                 </div>
-                <div className={styles.right_container_3} >
-                    <div className={styles.text_4}>sold It:</div>
+                <div className={styles.mainright_container_3} >
+                    <div className={styles.maintext_4}>sold It:</div>
                     <div>
                         <div className="line"></div>
                         <div className="text_2">Available: 20</div>

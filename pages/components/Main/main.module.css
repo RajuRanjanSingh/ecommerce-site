@@ -1,36 +1,37 @@
-.container{
-    padding-inline:4.375rem;
+
+.maincontainer{
+    padding-inline:4.main375rem;
     display: flex;
-    gap:3.375rem;
+    gap:3.main375rem;
 }
-.text_2{
+.maintext_2{
     color: #3DAB25;
     font-size: 14px;
 }
-.text_1{
-    font-size:0.75rem;
+.maintext_1{
+    font-size:0.main75rem;
 }
-.text_4{
+.maintext_4{
   font-size: 1rem;
   
 }
-.text_5{
+.maintext_5{
     font-size: 40px;
     border:2px solid red;
 }
-.right_container_1{
+.mainright_container_1{
     display: flex;
     gap:1rem;
     font-size: 1rem;
 }
-.gray{
+.maingray{
     color : #616161;
 }
-.green{
+.maingreen{
    
 }
 
-.img{
+.mainimg{
     height: 10px;
     width:10px;
 }
